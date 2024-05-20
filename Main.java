@@ -412,7 +412,7 @@ System.out.flush();
 				String data = myReader.nextLine();
 				return Integer.valueOf(data);
 			}
-			myReader.close();
+      myReader.close();
 		} catch (FileNotFoundException e) {
 			System.out.println("An error occurred.");
 			e.printStackTrace();
